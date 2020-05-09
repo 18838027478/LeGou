@@ -1,0 +1,382 @@
+.warp{
+    width: 1200px;
+    margin: 0 auto;
+}
+.bg{
+    background: pink;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+a:hover{
+    color: red !important;
+}
+.active{
+    display: block;
+    background: #f60 !important;
+}
+.hide{
+    display: none;
+}
+.font12{
+    font-size: 12px;
+}
+.font14{
+    font-size: 14px;
+}
+.font16{
+    font-size: 16px;
+}
+.font18{
+    font-size: 18px;
+}
+.font20{
+    font-size: 20px;
+}
+.font22{
+    font-size: 22px;
+}
+.font24{
+    font-size: 24px;
+}
+.font50{
+    font-size: 50px;
+}
+/* 字体颜色 */
+.colorf60{
+    color: #ff6600;
+}
+.colorf4b212{
+    color: #f4b212;
+}
+/* 背景颜色 */
+.bgf60{
+    background-color: #ff6600;
+}
+/* floorTitle  */
+.floorTitle{
+    width: 1200px;
+    line-height: 30px;
+    margin-top: 40px;
+    border-bottom: 5px solid #f60; 
+}
+.floorTitle li{
+    cursor: pointer;
+    width: 100px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+}
+/* floorLeft */
+.floorLeft{
+    width: 238px;
+    min-height: 440px;
+    line-height: 36px;
+    background: #f9f9f9;
+}
+.floorLeft li{
+    float: left;
+    width: 79px;
+    line-height: 39px;
+    text-align: center;
+}
+.floorRight{
+    width: 962px;
+    height: 500px;
+    background: #ccc;
+}
+.floorRight div{
+    float: left;
+    margin: 0 0 1px 2px;
+}
+.floorRight .single1{
+    width: 383px;
+    height: 340px;
+}
+.floorRight .hight{
+    width: 190px;
+    height: 340px;
+    background: #fff;
+}
+.floorRight .hight img {
+    width: 180px;
+}
+.floorRight .special{
+    width: 382px;
+    height: 156px;
+    background: #fff;
+}
+.floorRight .special img{
+    width: 382px;
+    height: 156px;
+}
+.floorRight .short{
+    width: 190px;
+    height: 156px;
+    background: #fff;
+}
+.floorLast img{
+    float: left;
+    width: 132px;
+}
+.tac{
+    text-align: center;
+}
+/* header start  */
+/* loginBar start  */
+.commonHeader .loginBar {
+    height: 28px;
+    font-size: 13px;
+    line-height: 28px;
+    color: #cacaca;
+    color: #e6e6e6;
+    background: #101010;
+}
+.commonHeader .loginBar span{
+    margin-left: 270px;
+}
+.commonHeader .commontext .more{
+    padding-left: 270px;
+}
+.commonHeader .loginBar a {
+    color: #f60;
+}
+/* searchBar start  */
+.commonHeader .searchBar {
+    height: 36px;
+    margin-top: 4px;
+}
+.searchOther{
+    height: 36px;
+    padding-left: 516px;
+}
+.searchOther input:first-child{
+    width: 386px;
+    height: 32px;
+    padding: 0;
+    text-indent: 8px;
+    color: #bfbfbf;
+    border: 2px solid #f60;
+}
+.searchOther input:last-child{
+    width: 50px;
+    height: 36px;
+    background: #f60 url(../images/bgicon.png);
+    border: 0;
+}
+.commonHeader .searchBar .searchRight li{
+    width: 100px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+}
+.commonHeader .searchBar .searchRight li:last-child{
+    height: 34px;
+    background: #ebebeb;
+    border: 1px solid #ccc;
+}
+.commonHeader .searchBar .searchRight li a{
+    color: #fff;
+}
+.commonHeader .searchBar .searchRight li:last-child a{
+    color: #808080;
+}
+/* logoNav start  */
+.commonHeader .logoNav{
+    margin-top: 28px;
+}
+.commonHeader .logoNav ul{
+    margin-left: 230px;
+}
+.commonHeader .logoNav li {
+    float: left;
+    font-weight: 600;
+    margin-right: 30px;
+    text-align: center;
+}
+.commonHeader .logoNav li a {
+    color: #323232;
+}
+.commonHeader .logoNav .warp{
+    position: relative;
+}
+.commonHeader .logoNav img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+/* footerLogo start  */
+.commonFooter .footerLogo{
+    border-top: 5px solid #f60;
+    background: #f2f2f2;
+}
+.commonFooter .footerLogo ul{
+    width: 840px;
+    margin: 0 auto;
+}
+.commonFooter .footerLogo ul li{
+    float: left;
+    width: 210px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+.commonFooter .footerIn{
+    height: 200px;
+}
+.commonFooter .footerIn li{
+    float: left;
+    font-size: 16px;
+    width: 80px;
+    height: 150px;
+    padding: 40px 80px 0 0;
+    line-height: 30px;
+}
+.commonFooter .footerIn li:first-child{
+    margin-left: 240px;
+}
+.commonFooter .footerIn li:last-child{
+    line-height: 150px;
+}
+.commonFooter .footerLast{
+    width: 900px;
+    margin: 50px 0 20px 196px;
+}
+.commonFooter .footerLast li{
+    float: left;
+    width: 110px;
+    height: 30px;
+    font-size: 14px;
+}
+.commonFooter .footerAbout{
+    padding-bottom: 60px;
+}
+/* commontext */
+.commontext{
+    height: 76px;
+    line-height: 76px;
+}
+.commontext>.warp{
+    position: relative;
+    font-size: 30px;
+}
+.commontext img:first-child{
+    z-index: 10;
+    position: absolute;
+    top: -29px;
+    left: 0;
+}
+.commontext .warp .first_a{
+    z-index: 20;
+    position: absolute;
+    top: -12px;
+    left: 120px;
+    color: #fff;
+}
+.commontext span:nth-child(3){
+    padding-left: 220px;
+}
+/* commonLike start  */
+.commonLike .floorTitle h3{
+    width: 124px;
+    height: 40px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+}
+.floorTitle h4{
+    line-height: 40px;
+    font-size: 22px;
+}
+.floorTitle span{
+    width: 40px;
+    height: 40px;
+    font-size: 27px;
+    text-align: center;
+    line-height: 40px; 
+    color: #fff;
+}
+.commonLike li{
+    float: left;
+    width: 210px;
+    height: 270px;
+    line-height: 24px;
+}
+.commonLike li:hover{
+    background: #f2f2f2;
+}
+.commonLike li:not(:nth-child(5n)){
+    margin-right: 36px;
+}
+.commonLike li .li_in{
+    width: 150px;
+    height: 150px;
+    margin: 10px 0 0 30px;
+    background: #fff;
+}
+.commonLike li .li_bottom{
+    margin-left: 10px;
+}
+.commonLike li .star .starImg{
+    width: 110px;
+    height: 20px;
+    background: url(../images/xing.png);
+}
+.commonLike li .li_last del{
+    color: #c0c0c0;
+}
+
+/* allbooksNews start  */
+.allbooksNews{
+    overflow: hidden;
+    width: 280px;
+    height: 440px;
+    margin-top: -5px;
+    border: 2px solid #e6e6e6;
+}
+.allbooksNews h2{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.allbooksNews li{
+    cursor: pointer;
+}
+.allbooksNews .num{
+    width: 20px;
+    height: 39px;
+    line-height: 39px;
+    text-align: center;
+}
+.allbooksNews .bookNum{
+    width: 260px;
+    height: 39px;
+    line-height: 39px;
+    text-align: center;
+}
+.allbooksNews .title{
+    width: 126px;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 6px  0 0 10px;
+}
+.allbooksNews .line{
+    width: 260px;
+    margin-left: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+
+
+
+
+

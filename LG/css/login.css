@@ -1,0 +1,90 @@
+#last{
+    height: 414px;
+    padding: 60px;
+    background: #e93854 url(../images/LoginBannerBG.png) no-repeat center;
+}
+#last .lastIn{
+    width: 350px;
+    height: 370px;
+    margin-left: 800px;
+    background: #fff;
+}
+#last .lastHead{
+    height: 30px;
+    line-height: 20px;
+    font-size: 20px;
+    padding-top: 20px;
+    border-bottom: 1px solid #ccc;
+}
+#last .lastHead p{
+    cursor: pointer;
+    width: 174px;
+    text-align: center;
+}
+#last .lastHead p:first-child{
+    border-right: 1px solid #ccc;
+}
+#last .lastBody{
+    position: relative;
+}
+#last .lastBody .bodyLeft{
+    width: 147px;
+    height: 147px;
+}
+#last .lastBody .bodyLeft img:first-child{
+    position: absolute;
+    top: 64px;
+    left: 100px;
+}
+#last .lastBody .bodyLeft img:nth-child(2){
+    position: absolute;
+    top: 50px;
+    right: 10px;
+}
+#last .lastBody .bodyLeft p:last-child{
+    width: 350px;
+    text-align: center;
+    padding-top: 240px;
+}
+#last .lastBody .bodyRight{
+    padding: 40px 30px 30px;
+}
+#last .bodyRight .input_P{
+    width: 288px;
+    height: 38px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+#last .bodyRight .input_P input{
+    width: 250px;
+    height: 38px;
+    line-height: 38px;
+    text-indent: 20px;
+    border: 0;
+}
+#last .bodyRight li:nth-child(3) input{
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+    vertical-align: middle;
+    background: #fefefe;
+    border: 1px solid #fefefe;
+}
+#last .bodyRight .loginMore{
+    height: 40px;
+    line-height: 40px;
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 0;
+    background: #f60;
+}
+#last .bodyRight .loginMore a{
+    color: #fff;
+}
+#last .bodyRight li:last-child{
+    font-size: 18px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    line-height: 50px;
+}
+

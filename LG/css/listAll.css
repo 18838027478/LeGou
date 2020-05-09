@@ -1,0 +1,64 @@
+#listBanner .bannerMain{
+    width: 1000px;
+    height: 430px;
+}
+#listBanner .bannerMore{
+    width: 200px;
+    height: 430px;
+    background: skyblue;
+}
+#listBanner .bannerhero{
+    height: 120px;
+}
+#bookDiscount .floorTitle h3{
+    width: 190px;
+}
+#bookNews .commonLike{
+    width: 900px;
+}
+#bookNews .newsLeft{
+    width: 900px;
+    height: 500px;
+    border: 2px solid #e6e6e6;
+} 
+#bookNews .floorTitle{
+    width: 904px;
+}
+#bookNews .newsLeft li{
+    width: 170px;
+    height: 220px;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 0 20px 10px;
+}
+#bookNews .newsLeft li .li_in{
+    margin-left: 10px;
+}
+#bookNews .newsLeft li .li_last{
+    font-size: 18px;
+}
+#bookNews .allbooksNews{
+    width: 284px;
+    height: 504px;
+}
+#bookNews .allbooksNews .bookNum{
+    height: 42px;
+} 
+#bookOnly .commonLike,
+#bookLove .commonLike{
+    border-bottom: 2px solid #e6e6e6;
+}
+#listLast ul{
+    height: 130px;
+    padding-top: 30px;
+}
+#listLast ul li{
+    float: left;
+    width: 200px;
+    height: 110px;
+}
+#listLast ul li img{
+    width: 200px;
+    height: 110px;
+}
+

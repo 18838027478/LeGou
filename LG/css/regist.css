@@ -1,0 +1,66 @@
+#registHead .firstRight{
+    font-size: 24px;
+    line-height: 32px;
+    padding-top: 30px;
+    color: #a6a6a6;
+}
+#registHead .commontext{
+    box-shadow: 0px 1px 8px 0px rgba(146, 146, 146, 0.4);
+}
+#register .register_body{
+    border-bottom: 2px solid #e6e6e6;
+}
+#register .register_more{
+    width: 402px;
+    height: 620px;
+    margin: 4px auto 40px;
+}
+#register ul li{
+    width: 390px;
+    height: 44px;
+    font-size: 20px;
+    line-height: 42px;
+    margin-top: 48px;
+    padding-left: 10px;
+    border: 1px solid #d9d9d9;
+}
+#register ul li span{
+    width: 110px;
+    color: #666;
+}
+#register ul li input{
+    width: 280px;
+    height: 44px;
+    font-size: 16px;
+    text-indent: 10px;
+    border: 0;
+    color: #ccc;
+}
+#register .li_special input{
+    width: 160px;
+}
+#register .li_special .li_title{
+    width: 120px;
+    height: 45px;
+    font-size: 28px;
+    line-height: 45px;
+    text-align: center;
+    background: skyblue;
+    color: #fff;
+}
+#register .li_special .li_time{
+    font-size: 16px;
+    cursor: pointer;
+}
+#register .isAgree{
+    margin: 10px 0 0 10px;
+}
+#register .registerLast{
+    width: 400px;
+    height: 44px;
+    font-size: 28px;
+    margin-top: 30px;
+    line-height: 44px;
+    text-align: center;
+    color: #fff;
+}

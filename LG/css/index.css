@@ -1,0 +1,319 @@
+/* asideBanner start  */
+#asideBanner{
+    height: 430px;
+}
+#asideBanner .asideLeft{
+    width: 200px;
+    height: 430px;
+}
+#asideBanner .asideRight{
+    width: 1000px;
+    height: 430px;
+}
+#asideBanner .controls{
+    width: 150px !important;
+}
+#asideBanner .controls li{
+    color: #fff;
+    line-height: 20px;
+    margin-right: 5px;
+}
+#asideBanner .controls li.current{
+    color: #fff;
+}
+#asideBanner .asideLeft{
+    position: relative;
+    background: #f3f3f3;
+}
+#asideBanner .asideLeft .listFirst{
+    position: relative;
+    z-index: 150;
+    height: 30px;
+    line-height: 30px;
+    text-indent: 20px;
+    color: #f60;
+}
+#asideBanner .asideLeft .listSecond{
+    z-index: 110;
+    position: absolute;
+    top: 0;
+    left: 199px;
+    width: 600px;
+    height: 490px;
+    background: #fff;
+    border: 1px solid #f60;
+}
+#asideBanner .asideLeft .hide{
+    display: none;
+}
+#asideBanner .asideLeft .active{
+    background: #fff;
+    color: #f60;
+    border: 1px solid #f60;
+    border-right: 1px solid #fff;
+}
+#asideBanner .asideLeft .listSecond .secondIn{
+    width: 500px;
+    margin-left: 30px;
+}
+
+#asideBanner .asideLeft .listSecond p{
+    height: 40px;
+    line-height: 40px;
+    font-size: 13px;
+}
+#asideBanner .asideLeft .listSecond p a{
+    margin-right: 20px;
+}
+#asideBanner .asideLeft .listSecond h4{
+    height: 28px;
+    font-size: 13px;
+    line-height: 28px;
+    border-bottom: 2px solid #e6e6e6;
+    color: #f60;
+}
+#asideBanner .asideLeft .listSecond li{
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    margin-right: 10px;
+    text-align: center;
+}
+/* products start  */
+#products h3{
+    height: 30px;
+    line-height: 30px;
+    font-size: 24px;
+    margin-top: 20px;
+    color: #f60;
+    border-bottom: 5px solid #f60;
+}
+#products ul{
+    width: 1190px;
+    height: 500px;
+    margin: 0 auto;
+    background: #f60;
+}
+#products li {
+    float: left;
+    width: 196px;
+    height: 248px;
+    line-height: 20px;
+    font-size: 14px;
+    text-indent: 10px;
+    margin: 0 0 2px 2px;
+    color: #333;
+    background: #fff;
+}
+#products li img:first-child{
+    display: block;
+    margin: 0 auto;
+}
+#products li p:last-child{
+    line-height: 30px;
+    font-size: 24px;
+    color: #f60;
+}
+/* books start  */
+#books .booksTitle{
+    width: 908px;
+}
+
+#books .booksRight{
+    width: 670px;
+    height: 440px;
+    background: #ccc;
+}
+#books .booksRight li{
+    float: left;
+    width: 165px;
+    height: 218px;
+    text-indent: 5px;
+    margin: 0 0 2px 2px;
+    background: #fff;
+}
+#books .booksRight li:first-child{
+    width: 332px;
+}
+#books .booksRight li p:first-child{
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+}
+#books .booksRight li p:nth-child(2){
+    font-size: 13px;
+    padding-bottom: 10px;
+    color: #ff6600;
+}
+#books .booksRight li p:last-child{
+    font-size: 18px;
+    color: #f60;
+}
+#books .booksRight li p:last-child del{
+    color: #b3b3b3;
+}
+/* clothes start  */
+#children .worng img{
+    width: 238px;
+    height: 348px;
+}
+#famliy .famliyIn{
+    height: 500px;
+    background: #ccc;
+}
+#famliy .famliyIn div{
+    margin: 0 0 1px 1px;
+}
+#famliy .famliyHeight img{
+    width: 176px;
+    height: 338px;
+}
+/* more start  */
+#more .moreRight li{
+    width: 12px;
+    height: 12px;
+    margin: 10px 10px 0 0;
+    border-radius: 6px;
+    background: #ccc;
+}
+#more .moreBox{
+    position: relative;
+    width: 1200px;
+    height: 700px;
+    overflow: hidden;
+}
+#more .moreAll{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2400px;
+    height: 700px;
+}
+#more .moreIn{
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+}
+#more .moreIn li{
+    float: left;
+    width: 160px;
+    height: 240px;
+    padding: 30px;
+    margin: 10px;
+}
+#more .moreIn li:hover{
+    background: #f2f2f2;
+}
+#more .moreIn li p:nth-child(2){
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 0;
+}
+#more .moreIn li span{
+    color: #f60;
+    font-size: 24px;
+}
+#more .moreIn .moreSay img{
+    margin-top: 8px;
+    vertical-align: middle;
+}
+/* searchAll start  */
+#searchAll{
+    z-index: 160;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: rgba(255,102,0,0.9);
+}
+#searchAll img{
+    margin: 0 0 6px 380px;
+}
+#searchAll .allBox{
+    width: 800px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 190px;
+}
+#searchAll .searchOther{
+    margin-top: 6px;
+    padding-left: 160px;
+}
+#renturnBox{
+    cursor: pointer;
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+   width: 30px;
+   height: 50px;
+   background: url(../images/gototop_05.jpg) no-repeat;
+}
+/* leftOther start  */
+#leftOther{
+    cursor: pointer;
+    position: fixed;
+    top: 40%;
+    left: 10px;
+    height: 240px;
+}
+#leftOther li{
+    overflow: hidden;
+    width: 0;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding-left: 40px;
+    color: #fff;
+    background: #f2f2f2 url(../images/fix_box_icon.png) no-repeat;
+}
+#leftOther li:first-child{
+    background-position: 0 0;
+}
+#leftOther li:nth-child(2){
+    background-position: 0 -40px;
+}
+#leftOther li:nth-child(3){
+    background-position: 0 -80px;
+}
+#leftOther li:nth-child(4){
+    background-position: 0 -120px;
+}
+#leftOther li:nth-child(5){
+    background-position: 0 -160px;
+}
+#leftOther li:nth-child(6){
+    background-position: 0 -200px;
+}
+/* 右边优惠券 */
+#securities{
+    cursor: pointer;
+    position: fixed;
+    top: 40%;
+    right: 10px;
+    width: 40px;
+    height: 180px;
+    background: pink;
+}
+#securities li{
+    width: 39px;
+    height: 40px;
+}
+#securities .securitiesIn img:last-child{
+    position: absolute;
+    top: 40px;
+    right: 39px;
+}
+#securities li:last-child span{
+    position: absolute;
+    top: 146px;
+    right: 20px;
+    width: 16px;
+    height: 16px;
+    font-size: 12px;
+    border-radius: 8px;
+    color: #fff;
+    background: #ff1e00;
+}

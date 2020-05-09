@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/slide.css">
+    <link rel="stylesheet" href="css/shopCar.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/tyslide.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/shopCar.js"></script>
+</head>
+
+<body>
+    <!-- header start  -->
+    <div id="shopCar" class="commonHeader clearfix">
+        <div class="loginBar">
+            <div class="warp clearfix">
+                <span class="fl">legochina.cn</span>
+                <p class="fr">
+                    欢迎光临<a href="./index.html">&nbsp;乐购</a>,&nbsp;&nbsp;
+                    请&nbsp;&nbsp;<a href="./login.html">登录\注册</a>
+                </p>
+            </div>
+        </div>
+        <div class="commontext clearfix warp">
+            <div class="warp another">
+                <img src="images/otherLogo.gif" alt="">
+                <a href="#" class="first_a">结算中心</a>
+            </div>
+            <div class="headRight fr">
+                <div class="searchOther">
+                    <input type="text" class="fl" value="创意文具">
+                    <input type="submit" class="fl" value="">
+                </div>
+                <div class="toAddress clearfix">
+                    <div class="in fr">
+                        <span>配送至&nbsp;</span>
+                        <select name="">
+                            <option value="">成都高新区三环内</option>
+                            <option value="">成都高新区二环内</option>
+                            <option value="">成都高新区一环内</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- shopBody start  -->
+    <div id="shopBody" class="warp">
+        <div class="head">
+            <p class="title">填写并核对订单信息</p>
+            <ul class="Choice clearfix">
+                <li>
+                    <input type="checkbox" class="checkEvery" checked>
+                    <span>全选</span>   
+                </li>
+                <li>商品</li>
+                <li>单价</li>
+                <li>数量</li>
+                <li>小计</li>
+                <li>操作</li>
+            </ul>
+        </div>
+        <div class="shopLine"></div>
+        <div class="bodyMore">
+            <ul class="Choice clearfix">
+                <li>
+                    <input type="checkbox" class="checkEach" checked>
+                </li>
+                <li>
+                    <div class="li_Box">
+                        <img src="images/23353342-1_l.jpg" alt="" class="fl">
+                        <span class="fl">从你的全世界路过</span>
+                    </div>
+                </li>
+                <li><span>41.12</span></li>
+                <li>
+                    <span class="fl">-</span>
+                    <input type="text" value="1" class="fl">
+                    <span class="fl">+</span>
+                </li>
+                <li><span>41.12</span></li>
+                <li>
+                    <p>删除</p>
+                    <p>移除我的关注</p>
+                </li>
+            </ul>
+            <ul class="Choice clearfix">
+                <li>
+                    <input type="checkbox" class="checkEach" checked>
+                </li>
+                <li>
+                    <div class="li_Box">
+                        <img src="images/23353342-1_l.jpg" alt="" class="fl">
+                        <span class="fl">从你的全世界路过</span>
+                    </div>
+                </li>
+                <li><span>61.46</span></li>
+                <li>
+                    <span class="fl">-</span>
+                    <input type="text" value="1" class="fl">
+                    <span class="fl">+</span>
+                </li>
+                <li><span>61.46</span></li>
+                <li>
+                    <p>删除</p>
+                    <p>移除我的关注</p>
+                </li>
+            </ul>
+            <ul class="Choice clearfix">
+                <li>
+                    <input type="checkbox" class="checkEach" checked>
+                </li>
+                <li>
+                    <div class="li_Box">
+                        <img src="images/23353342-1_l.jpg" alt="" class="fl">
+                        <span class="fl">从你的全世界路过</span>
+                    </div>
+                </li>
+                <li><span>50</span></li>
+                <li>
+                    <span class="fl">-</span>
+                    <input type="text" value="1" class="fl">
+                    <span class="fl">+</span>
+                </li>
+                <li><span>50</span></li>
+                <li>
+                    <p>删除</p>
+                    <p>移除我的关注</p>
+                </li>
+            </ul>
+        </div>
+        <div class="carFoot clearfix">
+            <div class="allLeft clearfix fl">
+                <div class="footLeft fl">
+                    <input type="checkbox" class="checkEvery" checked>
+                    <span>全选</span>
+                    <span class="delChoice">删除选中商品</span>
+                </div>
+                <div class="footRight fr clearfix">
+                    <div class="carChoose fl">已选择&nbsp;&nbsp;<span class="num">4</span>&nbsp;&nbsp;件商品</div>
+                    <di class="carChoose fl font20">总价&nbsp;&nbsp;<span class="allPrice">152.58</span>
+                </div>
+            </div>
+            <div class="allRight fr">
+                <a href="#">去结算</a>
+            </div>
+        </div>
+    </div>
+    <!-- commonLike start  -->
+    <div class="commonLike warp">
+        <div class="floorTitle">
+            <h3 class="font24 bgf60">猜你喜欢</h3>
+        </div>
+        <ul class="clearfix">
+            <li>
+                <div class="li_in">
+                    <img src="images/22935553-1_l.jpg" alt="">
+                </div>
+                <img src="images/index05_18.jpg" alt="">
+                <div class="li_bottom">
+                    <p class="font14">白夜行&nbsp;&nbsp;东野圭吾</p>
+                    <div class="star clearfix font14">
+                        <span class="fl">推荐&nbsp;&nbsp;</span>
+                        <div class="starImg fl"></div>
+                    </div>
+                    <div class="li_last font24">
+                        <span class="colorf60">￥:38&nbsp;&nbsp;</span>
+                        <span><del>￥:58</del></span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="li_in">
+                    <img src="images/22935553-1_l.jpg" alt="">
+                </div>
+                <img src="images/index05_18.jpg" alt="">
+                <div class="li_bottom">
+                    <p class="font14">白夜行&nbsp;&nbsp;东野圭吾</p>
+                    <div class="star clearfix font14">
+                        <span class="fl">推荐&nbsp;&nbsp;</span>
+                        <div class="starImg fl"></div>
+                    </div>
+                    <div class="li_last font24">
+                        <span class="colorf60">￥:38&nbsp;&nbsp;</span>
+                        <span><del>￥:58</del></span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="li_in">
+                    <img src="images/22935553-1_l.jpg" alt="">
+                </div>
+                <img src="images/index05_18.jpg" alt="">
+                <div class="li_bottom">
+                    <p class="font14">白夜行&nbsp;&nbsp;东野圭吾</p>
+                    <div class="star clearfix font14">
+                        <span class="fl">推荐&nbsp;&nbsp;</span>
+                        <div class="starImg fl"></div>
+                    </div>
+                    <div class="li_last font24">
+                        <span class="colorf60">￥:38&nbsp;&nbsp;</span>
+                        <span><del>￥:58</del></span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="li_in">
+                    <img src="images/22935553-1_l.jpg" alt="">
+                </div>
+                <img src="images/index05_18.jpg" alt="">
+                <div class="li_bottom">
+                    <p class="font14">白夜行&nbsp;&nbsp;东野圭吾</p>
+                    <div class="star clearfix font14">
+                        <span class="fl">推荐&nbsp;&nbsp;</span>
+                        <div class="starImg fl"></div>
+                    </div>
+                    <div class="li_last font24">
+                        <span class="colorf60">￥:38&nbsp;&nbsp;</span>
+                        <span><del>￥:58</del></span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="li_in">
+                    <img src="images/22935553-1_l.jpg" alt="">
+                </div>
+                <img src="images/index05_18.jpg" alt="">
+                <div class="li_bottom">
+                    <p class="font14">白夜行&nbsp;&nbsp;东野圭吾</p>
+                    <div class="star clearfix font14">
+                        <span class="fl">推荐&nbsp;&nbsp;</span>
+                        <div class="starImg fl"></div>
+                    </div>
+                    <div class="li_last font24">
+                        <span class="colorf60">￥:38&nbsp;&nbsp;</span>
+                        <span><del>￥:58</del></span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div id="footerBanner" class="warp">
+        <img src="images/moshou.png" alt="">
+    </div>
+    <!-- footer start  -->
+    <div class="commonFooter shopFooter">
+        <div class="footerLogo">
+            <div class="warp">
+                <ul class="clearfix">
+                    <li>
+                        <img src="images/222_11.png" alt="">
+                    </li>
+                    <li>
+                        <img src="images/222_13.png" alt="">
+                    </li>
+                    <li>
+                        <img src="images/222_15.png" alt="">
+                    </li>
+                    <li>
+                        <img src="images/222_17.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="warp">
+            <ul class="footerIn clearfix">
+                <li>
+                    <h4 class="font18">购物指南</h4>
+                    <P>购物流程</P>
+                    <P>发票制度</P>
+                    <P>账户管理</P>
+                    <P>会员优惠</P>
+                </li>
+                <li>
+                    <h4 class="font18">购物指南</h4>
+                    <P>购物流程</P>
+                    <P>发票制度</P>
+                    <P>账户管理</P>
+                    <P>会员优惠</P>
+                </li>
+                <li>
+                    <h4 class="font18">购物指南</h4>
+                    <P>购物流程</P>
+                    <P>发票制度</P>
+                    <P>账户管理</P>
+                    <P>会员优惠</P>
+                </li>
+                <li>
+                    <h4 class="font18">购物指南</h4>
+                    <P>购物流程</P>
+                    <P>发票制度</P>
+                    <P>账户管理</P>
+                    <P>会员优惠</P>
+                </li>
+                <li>
+                    <h4 class="font18">购物指南</h4>
+                    <P>购物流程</P>
+                    <P>发票制度</P>
+                    <P>账户管理</P>
+                    <P>会员优惠</P>
+                </li>
+                <li>
+                    <img src="images/logo_00.png" alt="">
+                </li>
+            </ul>
+            <ul class="footerLast clearfix">
+                <li>公司简介&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+                <li>公司简介&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+                <li>公司简介&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+                <li>公司简介&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+                <li>公司简介&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+                <li>公司简介&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+                <li>公司简介&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+                <li>公司简介</li>
+            </ul>
+            <p class="footerAbout tac">
+                Copyright (C) 乐购网 2004-2016, All Rights Reserved
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>
